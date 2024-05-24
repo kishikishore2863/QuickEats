@@ -1,9 +1,15 @@
+import { Outlet } from "react-router-dom";
+import ProfileClass from "./ProfileClass";
+import Profile from "./Profile";
+
 const About = () => {
   return (
     <>
-      <div>
-        <h1>this from About</h1>
-      </div>
+      <h1>this is an about </h1>
+      <p>kfvknjenvkjenvjkrenvjknjk</p>
+      <Outlet />
+      <ProfileClass />
+      <profile />
     </>
   );
 };
